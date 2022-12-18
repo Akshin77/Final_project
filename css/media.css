@@ -1,0 +1,14 @@
+@media only screen and (max-width:1000px) {
+
+    .nav_menu .nav_menu-bar, .nav_menu .nav_icons{
+        display: none;
+    }
+
+    .menu_icon a{
+        display: block;
+    }
+
+    .about_content{
+        padding: 0;
+    }
+}
