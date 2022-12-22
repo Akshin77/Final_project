@@ -29,15 +29,20 @@
 <body>
     
     <header>
-        <nav class="nav sticky-top">
+        <nav class="nav fixed-top">
             <div class="container-lg">
                 <div class="row m-0">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between a_navbar">
                         <div class="nav_logo">
                             <a href="#">
                                 <img src="./img/logo.png" alt="">
                             </a>
                         </div>
+                        <a href="#" onclick="toggle_button()" class="toggle-button">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
                         <div class="nav_menu">
                             <ul class="nav_menu-bar">
                                 <li id="current"><a href="#home">Home</a></li>
@@ -53,34 +58,14 @@
                                 <i class="fa-brands fa-behance"></i>
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
-                            <div class="menu_icon">
-                               <a class="burger" data-bs-toggle="offcanvas" href="#demo">
-                                <i class="fa-solid fa-bars"></i>
-                                </a>
-                                <div class="offcanvas offcanvas-top mobile_menu" id="demo">
-                                    <div class="offcanvas-header">
-                                        <div class="nav_logo">
-                                            <a href="#">
-                                                <img src="./img/logo.png" alt="">
-                                            </a>
-                                        </div>
-                                      <button type="button" class="btn-close close-x" data-bs-dismiss="offcanvas" ></button>
-                                    </div>
-                                    <div class="offcanvas-body mobile_menu_inner">
-                                      <li><a href="#about">About</a></li>
-                                      <li><a href="#service">Service</a></li>
-                                      <li><a href="#portfolio">Portfolio</a></li>
-                                      <li><a href="#blog">Blog</a></li>
-                                      <li><a href="#contact">Contact</a></li>
-                                    </div>
-                                  </div>
-                            </div>
+                           
                         </div>
                         
                     </div>
                 </div>
             </div>
         </nav>
+       
         <section id="hero" class="hero">
             <div class="container">
                 <div class="row content m-0">
@@ -139,13 +124,13 @@
         </div>
     </section>
 
-    <section  class="about">
+    <section id="about" class="about">
         <div class="container-lg">
             <div class="title_content">
                 <span>About Me</span>
                 <h3>A Passionate Developer Who Loves to Code</h3>
             </div>
-            <div id="about" class="wrapper">
+            <div class="wrapper">
                 <div class="row  m-0">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="about_imgs">
