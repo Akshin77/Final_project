@@ -1,3 +1,83 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero .hero_img img {
+        max-width: 260px;
+        max-height: 260px;
+    }
+    .hero .hero_content h1 {
+        font-size: 50px;
+        margin-bottom: 8px;
+    }
+    .hero .hero_content p {
+        font-size: 17px;
+    }
+    .title_content span {
+        font-size: 17px;
+    }
+    .title_content h3 {
+        font-size: 29px;
+    }
+    .first_img img {
+        max-width: 315px;
+        max-height: 510px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .about {
+        margin-bottom: 165px;
+    }
+    .left_list {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .right_list {
+        width: 100%;
+        border-left: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    
+
+    .hero .content {
+   
+    flex-direction: column-reverse;
+    }
+    .hero_content{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+
+    .first_img {
+        float: left;
+    }
+    .second_img, .first_img .badge,.first_img .expiriance  {
+       
+        display: none;
+    }
+
+    .skill_bars .left_bar{
+        padding-right: 0;
+      }
+      .skill_bars .right_bar{
+        padding-left: 0;
+      }
+
+
+}
+
 @media only screen and (max-width:1000px) {
 
     .nav_menu .nav_menu-bar, .nav_menu .nav_icons{
