@@ -15,7 +15,6 @@ body {
   max-height: 60px;
 }
 
-
 .nav .nav_menu {
   display: flex;
   align-items: center;
@@ -68,7 +67,7 @@ body {
 }
 
 /* nav_mobile - start  */
-.toggle-button{
+.toggle-button {
   position: absolute;
   top: 30px;
   right: 1rem;
@@ -80,7 +79,7 @@ body {
   /* vertical-align: middle; */
 }
 
-.toggle-button .bar{
+.toggle-button .bar {
   height: 3px;
   width: 100%;
   background-color: #fff;
@@ -173,7 +172,7 @@ body {
 
 /* features - start  */
 .features {
-  margin-bottom: 113px;
+  /* margin-bottom: 113px; */
   height: auto;
 }
 .features_card .features_card_content {
@@ -215,8 +214,8 @@ body {
 
 /* about - start  */
 
-.about{
-  margin-bottom: 245px;
+.about {
+  padding-top: 113px;
 }
 
 .title_content {
@@ -247,29 +246,28 @@ body {
 
 /* about-imgs - start  */
 
-.wrapper{
+.wrapper {
   width: 100%;
   height: auto;
   clear: both;
   margin-top: 75px;
 }
 
-.about_imgs{
+.about_imgs {
   position: relative;
   width: 100%;
-  
 }
 
-.first_img{
+.first_img {
   position: relative;
   float: right;
 }
-.first_img img{
+.first_img img {
   max-width: 380px;
   max-height: 510px;
 }
 
-.second_img{
+.second_img {
   position: absolute;
   z-index: 1;
   right: 100%;
@@ -278,20 +276,18 @@ body {
   margin-right: -100px;
 }
 
-.in{
+.in {
   position: relative;
 }
 
-
-.second_img img{
+.second_img img {
   min-width: 280px;
   max-width: 280px;
   min-height: 300px;
   border-radius: 15px;
 }
 
-
-.first_img .badge{
+.first_img .badge {
   width: 90px;
   height: 90px;
   display: inline-block;
@@ -306,34 +302,34 @@ body {
   justify-content: center;
 }
 
-.first_img .badge i{
+.first_img .badge i {
   font-size: 45px;
 }
 
-.first_img .expiriance{
+.first_img .expiriance {
   position: absolute;
   top: 100%;
   left: 165px;
   margin-top: 20px;
 }
 
-.first_img .expiriance .inner{
+.first_img .expiriance .inner {
   position: relative;
   display: flex;
   align-items: center;
   padding-left: 22px;
 }
 
-.first_img .expiriance .inner::before{
-    position: absolute;
-    content: "";
-    background-color:  #00c0ff;
-    left: 0;
-    width: 8px;
-    height: 50px;
+.first_img .expiriance .inner::before {
+  position: absolute;
+  content: "";
+  background-color: #00c0ff;
+  left: 0;
+  width: 8px;
+  height: 50px;
 }
 
-.first_img .expiriance .inner h3{
+.first_img .expiriance .inner h3 {
   font-weight: 600;
   line-height: 1.3;
   font-family: "Poppins", sans-serif;
@@ -341,8 +337,7 @@ body {
   font-size: 45px;
 }
 
-.first_img .expiriance .inner span{
-  
+.first_img .expiriance .inner span {
   font-size: 16px;
   line-height: 20px;
   padding-left: 14px;
@@ -354,12 +349,11 @@ body {
 
 /* about-content - start  */
 
-
-.about_content{
+.about_content {
   padding-left: 40px;
 }
 
-.about_content h3{
+.about_content h3 {
   font-weight: 600;
   line-height: 1.3;
   font-family: "Poppins", sans-serif;
@@ -368,37 +362,39 @@ body {
   font-size: 30px;
 }
 
-.about_content p{
+.about_content p {
   line-height: 30px;
   letter-spacing: 0;
   word-wrap: break-word;
   font-weight: 400;
   font-size: 16px;
-  color:  #b4afc6;
-  font-family:  'Open Sans', sans-serif;
+  color: #b4afc6;
+  font-family: "Open Sans", sans-serif;
 }
 
-.about_list{
+.about_list {
   width: 100%;
   height: auto;
   float: left;
   margin-top: 32px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    border: 2px solid #625a7d;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: 2px solid #625a7d;
 }
-.left_list{
+.left_list {
   width: 50%;
   padding: 35px 35px;
   float: left;
 }
 
-.left_list ul li , .right_list ul li{
+.left_list ul li,
+.right_list ul li {
   margin: 0 0 11px;
 }
 
-.left_list ul li span, .right_list ul li span{
-  font-family:'Poppins', sans-serif;
+.left_list ul li span,
+.right_list ul li span {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -406,21 +402,20 @@ body {
   margin-bottom: 5px;
 }
 
-.right_list{
+.right_list {
   width: 50%;
   padding: 35px 35px;
   float: left;
-  border-left:  2px solid #625a7d;
+  border-left: 2px solid #625a7d;
 }
 /* about-content - start  */
 /* about - end  */
 
 /* total - start  */
-.total{
-  margin-bottom: 115px;
+.total {
+  padding-top: 245px;
 }
-.total .total_content{
-  width: 100%;
+.total .total_content {
   width: 100%;
   margin: 0 0 50px;
   /* clear: both; */
@@ -435,99 +430,192 @@ body {
   justify-content: center;
 }
 
-.total .total_content h3{
+.total .total_content h3 {
   font-size: 55px;
   color: #00c0ff;
   font-weight: 600;
   line-height: 1.3;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.total .total_content span{
+.total .total_content .total_text {
   font-size: 16px;
-    padding-left: 18px;
-    line-height: 24px;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    display: inline-block;
+  padding-left: 18px;
+  line-height: 24px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  display: inline-block;
 }
 /* total - end  */
 
 /* skills - start  */
 
-.skills{
-  margin-bottom: 163px;
+.skills {
+  padding-top: 115px;
 }
 
-.skill_bars{
+.skill_bars {
   width: 100%;
-  margin-top: 60px;
+  margin-top: 70px;
 }
-.skill_bars .left_bar{
+.skill_bars .left_bar {
   padding-right: 3rem;
 }
-.skill_bars .right_bar{
+.skill_bars .right_bar {
   padding-left: 3rem;
 }
-.bar_inner{
+.bar_inner {
   width: 100%;
   margin-bottom: 37px;
 }
-.bar_persent{
+.bar_persent {
   display: flex;
   justify-content: space-between;
   margin: 0 0 15px;
 }
 
-.bar_persent span:first-child{
+.bar_persent span:first-child {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.bar_persent span:nth-child(2){
+.bar_persent span:nth-child(2) {
   color: #00c0ff;
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-right: 5%;
 }
 /* skills - end  */
 
 /* services - start  */
-.services{
-  margin-bottom: 110px;
+.services {
+  padding-top: 163px;
+  /* margin-bottom: 110px; */
 }
-.service_cards{
+.service_cards {
   margin-top: 70px;
 }
-.serviceCard .serviceCard_content{
+.serviceCard .serviceCard_content {
   text-align: center;
   padding: 95px 30px 60px;
 }
-.serviceCard .serviceCard_content i{
+.serviceCard .serviceCard_content i {
   font-size: 60px;
 }
 /* services - end  */
 
+/* resume - start  */
 
+.resume {
+  padding-top: 110px;
+  margin-bottom: 155px;
+}
+.resume_content {
+  width: 100%;
+  height: auto;
+  margin-top: 65px;
+}
+.resume_content .expirianse{
+  width: 100%;
+  padding-right: 50px;
+  float: left;
+}
+.resume_content .education {
+  width: 100%;
+  padding-left: 50px;
+  float: left;
+}
 
+.resume_content .resume_title {
+  width: 100%;
+  float: left;
+  margin-bottom: 60px;
+}
+.resume_content .resume_title h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.resume_list {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.resume_list::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #5d5e82;
+  top: 0;
+  bottom: 0;
+  left: 36px;
+  z-index: -1;
+}
+.resume_list_inner {
+  width: 100%;
+  float: left;
+  margin: 0 0 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+.resume_list_inner:last-child {
+  margin: 0;
+}
+.resume_list_inner .icon {
+  width: 72px;
+  height: 72px;
+  float: left;
+  border-radius: 100%;
+  background-color: #00c0ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.resume_list_inner .inner_text {
+  width: 85%;
+  padding-left: 20px;
+  float: left;
+}
+.resume_list_inner .inner_text h3 {
+  font-size: 24px;
+  margin-bottom: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.resume_list_inner .inner_text h3 span {
+  font-size: 16px;
+  color: #b4afc6;
+  font-weight: 400;
+  display: inline-block;
+  padding-left: 8px;
+}
 
+.resume_list_inner .inner_text .company {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.resume_list_inner .inner_text p {
+  width: 85%;
+  line-height: 30px;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  font-weight: 400;
+  color: #b4afc6;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 18px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* resume - end  */
 
 
 

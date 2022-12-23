@@ -21,8 +21,8 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px) {
-  .about {
-    margin-bottom: 165px;
+  .total{
+    padding-top: 165px;
   }
   .left_list {
     width: 100%;
@@ -68,6 +68,14 @@
   }
   .skill_bars .right_bar {
     padding-left: 0;
+  }
+
+  .resume_content .education {
+    padding-left: 0;
+    padding-top: 70px;
+  }
+  .resume_content .expirianse{
+    padding-right: 0;
   }
 }
 
