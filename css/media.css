@@ -38,11 +38,13 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px) {
   .hero .hero_img img {
-    max-width: 260px;
-    max-height: 260px;
+    max-width: 230px;
+    max-height: 230px;
   }
   .hero .content {
     flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
   }
   .hero_content {
     display: flex;
