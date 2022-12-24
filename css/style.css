@@ -33,8 +33,8 @@ body {
   transition: 0.3s;
 }
 
-#current a {
-  color: #00c0ff;
+.current a {
+  color: #00c0ff !important;
 }
 
 .nav .nav_menu ul li a:hover {
@@ -497,27 +497,55 @@ body {
 .service_cards {
   margin-top: 70px;
 }
+
+.serviceCard {
+  width: 100%;
+}
+
+.serviceCard:hover .service_icon {
+  background-color: #00c0ff;
+}
+.serviceCard:hover .service_icon i {
+  color: #fff;
+}
 .serviceCard .serviceCard_content {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 95px 30px 60px;
 }
 .serviceCard .serviceCard_content i {
-  font-size: 60px;
+  font-size: 40px;
+  margin: 0;
+  transition: 0.3s;
 }
+
+.service_icon {
+  width: 75px;
+  height: 75px;
+  background-color: #432d92;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
 /* services - end  */
 
 /* resume - start  */
 
 .resume {
   padding-top: 110px;
-  margin-bottom: 155px;
 }
 .resume_content {
   width: 100%;
   height: auto;
   margin-top: 65px;
 }
-.resume_content .expirianse{
+.resume_content .expirianse {
   width: 100%;
   padding-right: 50px;
   float: left;
@@ -561,6 +589,7 @@ body {
   margin: 0 0 50px;
   display: flex;
   justify-content: flex-start;
+  gap: 20px;
 }
 .resume_list_inner:last-child {
   margin: 0;
@@ -579,7 +608,7 @@ body {
 
 .resume_list_inner .inner_text {
   width: 85%;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   float: left;
 }
 .resume_list_inner .inner_text h3 {
@@ -605,7 +634,7 @@ body {
   font-weight: 600;
 }
 .resume_list_inner .inner_text p {
-  width: 85%;
+  /* width: 85%; */
   line-height: 30px;
   letter-spacing: 0;
   word-wrap: break-word;
@@ -616,6 +645,115 @@ body {
 }
 
 /* resume - end  */
+
+/* portfolio - start  */
+
+.portfolio {
+  padding-top: 155px;
+  /* padding-bottom: 200px; */
+}
+.portfolio_control {
+  width: 100%;
+  height: auto;
+  /* clear: both;
+  float: left; */
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 55px;
+}
+.portfolio_control ul li {
+  display: inline-block;
+  margin: 0 20px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  transition: 0.3s;
+}
+
+.portfolio_control ul li.active {
+  color: #00c0ff;
+}
+
+.portfolio_control ul li:hover {
+  color: #00c0ff;
+  cursor: pointer;
+}
+.portfolio_list {
+  width: 100%;
+  float: left;
+}
+.portfolio_list .item {
+  width: 100%;
+  height: 400px;
+  clear: both;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+.portfolio_list .item .details {
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: #1e1345;
+  padding: 20px;
+  border-radius: 12px;
+  transform: translateY(130%);
+  transition: all 0.3s ease;
+}
+
+.portfolio_list .item:hover .details {
+  transform: translateY(0%);
+}
+
+.portfolio_list .item .details h3 {
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.portfolio_list .item .details span {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  font-weight: 400;
+  color: #b4afc6;
+}
+
+.portfolio_list .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-box.hide {
+  display: none;
+}
+/* portfolio - end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

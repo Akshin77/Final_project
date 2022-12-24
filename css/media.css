@@ -17,6 +17,14 @@
     max-width: 315px;
     max-height: 510px;
   }
+
+  .resume_list_inner .inner_text {
+    width: 75%;
+  }
+
+  .portfolio_control ul li {
+    font-size: 15px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -32,6 +40,17 @@
   .right_list {
     width: 100%;
     border-left: none;
+  }
+
+  .resume_list_inner .icon {
+    width: 65px;
+    height: 65px;
+  }
+  .resume_list::before {
+    left: 31px;
+  }
+  .resume_list_inner .inner_text h3 {
+    font-size: 22px;
   }
 }
 
@@ -99,8 +118,8 @@
   .nav_menu .nav_icons {
     display: none;
   }
-  #current {
-    padding-top: 30px;
+  .current {
+    padding-top: 30px !important;
   }
 
   .nav .nav_menu ul li {
