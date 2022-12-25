@@ -649,6 +649,7 @@ body {
 /* portfolio - start  */
 
 .portfolio {
+  width: 100%;
   padding-top: 155px;
   /* padding-bottom: 200px; */
 }
@@ -682,7 +683,7 @@ body {
 }
 .portfolio_list {
   width: 100%;
-  float: left;
+  height: auto;
 }
 .portfolio_list .item {
   width: 100%;
@@ -741,10 +742,112 @@ body {
 }
 /* portfolio - end  */
 
+/* testimonials - start  */
+
+.testimonials{
+  width: 100%;
+  padding-top: 140px;
+}
+
+.testi {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.testi .slide {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.slide i{
+  font-size: 100px;
+  color: #00c0ff;
+}
+.slide p {
+  font-size: 27px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 35px;
+}
+
+.slide .short{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.short .image{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 
+.short .detail{
+  text-align: left;
+  padding-left: 25px;
+  
+}
 
+.short .detail h3{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.short .detail span{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  font-weight: 400;
+  color: #b4afc6;
+}
 
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #00c0ff;
+  opacity: 1;
+  margin: 0 12px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #00c0ff;
+  position: relative;
+}
+
+.swiper-pagination-bullet-active::before{
+  position: absolute;
+  content: "";
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  transition: all .5s ease;
+
+}
+
+/* testimonials - end  */
 
 
 

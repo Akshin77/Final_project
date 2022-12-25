@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+    <!-- ========= Swiper Css ========= -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
     <!-- ========= Page's Font | Google Font ========= -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -24,6 +27,8 @@
 
     <!-- ========= Reset Css ========= -->
     <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- ========= Media Css ========= -->
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
@@ -545,63 +550,122 @@
                     <li class="list" data-filter="content">Content</li>
                 </ul>
             </div>
-            <div class="portfolio_list">
-                <div class="row m-0">
-                    <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="youtube">
-                        <div class="item">
-                            <img src="./img/youtube.jpg" alt="">
-                            <div class="details">
-                                <h3>Axe Droow</h3>
-                                <span>Youtube</span>
+                <div class="portfolio_list">
+                    <div class="row m-0">
+                        <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="youtube">
+                            <div class="item">
+                                <img src="./img/youtube.jpg" alt="">
+                                <div class="details">
+                                    <h3>Axe Droow</h3>
+                                    <span>Youtube</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="vimeo">
-                        <div class="item">
-                            <img  src="./img/vimeo.jpg" alt="">
-                            <div class="details">
-                                <h3>Mockup Clock</h3>
-                                <span>Vimeo</span>
+                        <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="vimeo">
+                            <div class="item">
+                                <img  src="./img/vimeo.jpg" alt="">
+                                <div class="details">
+                                    <h3>Mockup Clock</h3>
+                                    <span>Vimeo</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box " data-item="soundcloud">
-                        <div class="item">
-                            <img  src="./img/soundcloud.jpg" alt="">
-                            <div class="details">
-                                <h3>Afra Porter</h3>
-                                <span>Soundcloud</span>
+                        <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box " data-item="soundcloud">
+                            <div class="item">
+                                <img  src="./img/soundcloud.jpg" alt="">
+                                <div class="details">
+                                    <h3>Afra Porter</h3>
+                                    <span>Soundcloud</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="popup">
-                        <div class="item">
-                            <img  src="./img/popup.jpg" alt="">
-                            <div class="details">
-                                <h3>Good Idea</h3>
-                                <span>Popup</span>
+                        <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="popup">
+                            <div class="item">
+                                <img  src="./img/popup.jpg" alt="">
+                                <div class="details">
+                                    <h3>Good Idea</h3>
+                                    <span>Popup</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="popup">
-                        <div class="item">
-                            <img  src="./img/popup (1).jpg" alt="">
-                            <div class="details">
-                                <h3>Magic Art</h3>
-                                <span>Popup</span>
+                        <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="popup">
+                            <div class="item">
+                                <img  src="./img/popup (1).jpg" alt="">
+                                <div class="details">
+                                    <h3>Magic Art</h3>
+                                    <span>Popup</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="content">
-                        <div class="item">
-                            <img  src="./img/content.jpg" alt="">
-                            <div class="details">
-                                <h3>Creative Design</h3>
-                                <span>Content</span>
+                        <div class="col-xs-12 col-sm-sm-6 col-md-6 col-lg-4 item-box" data-item="content">
+                            <div class="item">
+                                <img  src="./img/content.jpg" alt="">
+                                <div class="details">
+                                    <h3>Creative Design</h3>
+                                    <span>Content</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container-lg">
+            <div class="title_content">
+                <span>Testimonials</span>
+                <h3>What Clients Say</h3>
+            </div>
+            <div class="testi mySwiper">
+                <div class="testi_content swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                        <p>
+                            Really the Code Quality, Customer Support, and design are awesome and its good support they are giving. They give an instant solution to our needs. Really awesome. I will strongly recommend to my friends. Simply amazing team and amazing theme! Thank you from United States of America!
+                        </p>
+                        <div class="short">
+                            <div class="image">
+                                <img width="100%" height="100%" src="./img/Keita.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3>Keita Smith</h3>
+                                <span>ABC Group</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                        <p>
+                            Really the Code Quality, Customer Support, and design are awesome and its good support they are giving. They give an instant solution to our needs. Really awesome. I will strongly recommend to my friends. Simply amazing team and amazing theme! Thank you from United States of America!
+                        </p>
+                        <div class="short">
+                            <div class="image">
+                                <img width="100%" height="100%" src="./img/Mike.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3>Mike Anderson</h3>
+                                <span>Vivaco Studio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <i class="fa-sharp fa-solid fa-quote-left"></i>
+                        <p>
+                            Loved the template design, documentation, customizability and the customer support from Marketify team! I am a noob in programming with very little knowledge about coding but the Marketify team helped me to launch my resume website successfully. Much recommended!
+                        </p>
+                        <div class="short">
+                            <div class="image">
+                                <img width="100%" height="100%" src="./img/Alan.jpg" alt="">
+                            </div>
+                            <div class="detail">
+                                <h3>Alan Walker</h3>
+                                <span>Web Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -609,5 +673,8 @@
 
 </body>
 </html>
+    <!-- ========= Swiper Js ========= -->
+    <script src="./js/swiper-bundle.min.js"></script>
 
+    <!-- ========= JavaScript ========= -->
     <script src="./js/main.js"></script>
