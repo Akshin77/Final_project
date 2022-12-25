@@ -29,12 +29,15 @@ list.forEach((elem)=>{
 })
 // portfolio-end
 
-
+// Swiper Js
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     grabCursor: true,
     loop: true,
+    autoplay: {
+        delay: 6000,
+      },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
