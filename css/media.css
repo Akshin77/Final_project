@@ -1,3 +1,34 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  .total{
+    padding-top: 165px;
+  }
+  .left_list {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .right_list {
+    width: 100%;
+    border-left: none;
+  }
+
+  .resume_list_inner .icon {
+    width: 65px;
+    height: 65px;
+  }
+  .resume_list::before {
+    left: 31px;
+  }
+  .resume_list_inner .inner_text h3 {
+    font-size: 22px;
+  }
+
+  .slide p {
+    font-size: 22px;
+  }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero .hero_content h1 {
@@ -25,34 +56,13 @@
   .portfolio_control ul li {
     font-size: 15px;
   }
+
+  .slide p {
+    font-size: 18px;
+  }
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
-  .total{
-    padding-top: 165px;
-  }
-  .left_list {
-    width: 100%;
-    padding-bottom: 0;
-  }
-
-  .right_list {
-    width: 100%;
-    border-left: none;
-  }
-
-  .resume_list_inner .icon {
-    width: 65px;
-    height: 65px;
-  }
-  .resume_list::before {
-    left: 31px;
-  }
-  .resume_list_inner .inner_text h3 {
-    font-size: 22px;
-  }
-}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px) {
