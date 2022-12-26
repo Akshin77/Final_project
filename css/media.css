@@ -121,6 +121,22 @@
     display: flex;
   }
 
+  .toggle-button.active1 .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .toggle-button.active1 .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .toggle-button.active1 .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav_menu-bar.active1 {
+    display: flex !important;
+  }
+
+
   .nav_menu {
     width: 100%;
   }
@@ -145,9 +161,5 @@
   .a_navbar {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .active1 {
-    display: flex !important;
   }
 }

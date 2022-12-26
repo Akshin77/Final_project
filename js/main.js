@@ -1,8 +1,17 @@
 // navbar-start
-function toggle_button(){
-    var element = document.getElementsByClassName("nav_menu-bar")[0]
-    element.classList.toggle("active1");
-}
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('nav_menu-bar')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active1')
+  toggleButton.classList.toggle("active1")
+})
+
+document.querySelectorAll(".nav_link").forEach(n => n.
+  addEventListener("click", () => {
+    toggleButton.classList.remove("active1");
+    navbarLinks.classList.remove("active1");
+  }))
 // navbar-end
 
 // portfolio-start
@@ -46,4 +55,18 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+  });
+
+
+// Swiper Js-partners
+  var swiper = new Swiper(".mySwiper1", {
+    slidesPerView: 4,
+    spaceBetween: 0,
+    slidesPerGroup: 1,
+    grabCursor: true,
+    autoplay: {
+      delay: 6000,
+    },
+    loop: true,
+    loopFillGroupWithBlank: true
   });
