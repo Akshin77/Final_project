@@ -27,6 +27,10 @@
   .slide p {
     font-size: 22px;
   }
+
+  .input_list_inner {
+    width: 100%;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -108,6 +112,17 @@
   .resume_content .expirianse{
     padding-right: 0;
   }
+
+  .subscribe_inner{
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .subscribe_content{
+    margin-bottom: 40px;
+  }
+
 }
 
 @media only screen and (max-width: 1000px) {

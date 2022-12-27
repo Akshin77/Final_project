@@ -70,3 +70,30 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
     loopFillGroupWithBlank: true
   });
+
+
+// Parallax-effect
+  jQuery(document).ready(function ($) {
+    $(".et-js-tilt").tilt({
+      glare: false,
+      maxGlare: 0.7,
+      scale: 1,
+      perspective: 1000
+    });
+  
+    $(".et-row-js-tilt").tilt({
+      scale: 1,
+      perspective: 1200
+    });
+  
+    const columnTilt3d = $(".et-column-js-tilt-3d").tilt({
+      scale: 1.1,
+      perspective: 1000
+    });
+    columnTilt3d.on("tilt.mouseEnter", function (e) {
+      $(e.target).addClass("tilt-active");
+    });
+    columnTilt3d.on("tilt.mouseLeave", function (e) {
+      $(e.target).removeClass("tilt-active");
+    });
+  });
