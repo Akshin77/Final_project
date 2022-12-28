@@ -130,6 +130,7 @@
     padding: 0;
   }
   .nav {
+    padding: 20px 0px;
     background-color: #1e1345;
   }
   .toggle-button {
@@ -163,7 +164,7 @@
     padding-top: 30px !important;
   }
 
-  .nav .nav_menu ul li {
+  .nav_menu ul li {
     padding: 0.5rem;
     margin: 0;
   }

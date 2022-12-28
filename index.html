@@ -36,7 +36,7 @@
 <body>
     
     <header id="home" >
-        <nav class="nav fixed-top">
+        <nav id="myNav" class="nav fixed-top">
             <div class="container-lg">
                 <div class="row m-0">
                     <div class="d-flex justify-content-between a_navbar">
@@ -45,7 +45,7 @@
                                 <img src="./img/logo.png" alt="">
                             </a>
                         </div>
-                        <a href="#" class="toggle-button">
+                        <a class="toggle-button">
                             <span class="bar"></span>
                             <span class="bar"></span>
                             <span class="bar"></span>
@@ -868,6 +868,18 @@
             </div>
         </div>  
     </section>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+  if (document.documentElement.scrollTop <90) {
+    document.getElementById("myNav").classList = "nav fixed-top";
+  } else {
+    document.getElementById("myNav").classList = "nav2 fixed-top";
+  }
+  }
+    </script>
 
 </body>
 </html>
