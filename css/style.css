@@ -87,6 +87,7 @@ body {
   justify-content: space-between;
   width: 30px;
   height: 20px;
+  cursor: pointer;
   /* vertical-align: middle; */
 }
 
