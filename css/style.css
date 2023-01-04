@@ -1167,8 +1167,12 @@ body {
 .copyright_text p a {
   color: #fff;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
+.copyright_text p a:hover{
+  color: #00c0ff;
+}
 /* copyright - end  */
 
 
