@@ -451,6 +451,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.cnumber{
+  opacity: 0;
+}
+.viz {
+  opacity: 1;
+  transition: 1s;
+}
+
 .total .total_content .total_text {
   font-size: 16px;
   padding-left: 18px;
