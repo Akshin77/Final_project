@@ -46,6 +46,7 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
     autoplay: {
         delay: 6000,
+        disableOnInteraction: false,
       },
     pagination: {
       el: ".swiper-pagination",
@@ -66,6 +67,7 @@ var swiper = new Swiper(".mySwiper", {
     grabCursor: true,
     autoplay: {
       delay: 6000,
+      disableOnInteraction: false,
     },
     loop: true,
     loopFillGroupWithBlank: true
